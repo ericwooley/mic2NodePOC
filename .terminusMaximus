@@ -1,0 +1,20 @@
+{
+  "errorHeight": 20,
+  "scripts": {
+    "dev": {
+      "screensPerRow": 2,
+      "commands": [
+        {
+          "label": "webapp",
+          "command": "cd packages/client && npm run start",
+          "screenConfig": {}
+        },
+        {
+          "label": "server",
+          "command": "cd ./packages/server && node server.js",
+          "screenConfig": {}
+        }
+      ]
+    }
+  }
+}

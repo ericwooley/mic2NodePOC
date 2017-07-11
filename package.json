@@ -1,0 +1,15 @@
+{
+  "name": "browserStreamExpirement",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "termax dev",
+    "postinstall": "lerna bootstrap"
+  },
+  "dependencies": {
+    "@google-cloud/speech": "^0.9.4",
+    "@tww/terminus-maximus": "^2.0.2",
+    "lerna": "^2.0.0"
+  }
+}
