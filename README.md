@@ -2,4 +2,4 @@
 
 1. npm install
 2. npm run dev
-3. open browser to local host 3000, data will be streamed.
+3. open browser to http://localhost:3000, click the stream mic button, and data will be streamed and console logged.
